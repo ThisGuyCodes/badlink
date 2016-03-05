@@ -1,7 +1,5 @@
 package badlink
 
-import "gopkg.in/yaml.v2"
-
-func Thing(this yaml.Marshaler) yaml.Marshaler {
+func Thing(this string) string {
 	return this
 }
